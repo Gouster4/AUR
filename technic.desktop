@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=master
+Type=Application
+Name=Technic Launcher
+Comment=The Technic Launcher will get you playing your favorite minecraft modpacks in no time. Choose from thousands of modpacks and install them with a single click.
+Icon=/usr/share/icons/technic.png
+Exec=/usr/bin/technic-launcher
+Categories=Game;
