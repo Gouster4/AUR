@@ -17,8 +17,7 @@ build() {
 
 package(){
   # Moving everything to pkg/.
-  mkdir "$pkgdir"/usr "$pkgdir"/usr/lib "$pkgdir"/usr/bin "$pkgdir"/usr/share
-   "$pkgdir"/usr/share/applications "$pkgdir"/usr/share/icons
+  mkdir "$pkgdir"/usr "$pkgdir"/usr/lib "$pkgdir"/usr/bin "$pkgdir"/usr/share "$pkgdir"/usr/share/applications "$pkgdir"/usr/share/icons
   mv "$srcdir"/AUR/technic-launcher "$pkgdir"/usr/bin/technic-launcher
   chmod +x "$pkgdir"/usr/bin/technic-launcher
   mv "$srcdir"/AUR/technic.jar "$pkgdir"/usr/lib/technic.jar
